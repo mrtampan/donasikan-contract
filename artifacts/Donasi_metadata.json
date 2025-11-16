@@ -1,0 +1,177 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint104",
+						"name": "orderId",
+						"type": "uint104"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "addressDonatur",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "DonasiNote",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"internalType": "address payable",
+						"name": "addressDonatur",
+						"type": "address"
+					}
+				],
+				"name": "donasi",
+				"outputs": [
+					{
+						"internalType": "uint104",
+						"name": "",
+						"type": "uint104"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint104",
+						"name": "",
+						"type": "uint104"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "donasiData",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "addressDonatur",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getOrderId",
+				"outputs": [
+					{
+						"internalType": "uint104",
+						"name": "",
+						"type": "uint104"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "orderId",
+				"outputs": [
+					{
+						"internalType": "uint104",
+						"name": "",
+						"type": "uint104"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Donasi.sol": "Donasi"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Donasi.sol": {
+			"keccak256": "0xbc40ccc8f016aea481ba7b4e24f70807d9a981f3db5a35a6ff147c9b35205617",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://89bbbbfbf241c4590a6ef7ea24fd3f5912cdce29657d10ce3e2f86aa61268e9f",
+				"dweb:/ipfs/QmeXRt1ogivaRzfNQ8i2w2BuUqajtf2kvXSyMKrRksYTeW"
+			]
+		}
+	},
+	"version": 1
+}
